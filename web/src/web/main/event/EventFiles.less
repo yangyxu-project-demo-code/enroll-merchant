@@ -1,0 +1,53 @@
+.enroll-user-main-event-files{
+    .file-viewer{
+        margin: 20px;
+        .header{
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            align-items: center;
+            background-color: #FFF;
+        }
+        .paths{
+            .path{
+                text-decoration: underline;
+                color: blue;
+                cursor: pointer;
+                padding: 5px;
+            }
+        }
+        .file-list{
+            padding: 0px;
+            margin: 0px;
+            margin-top: 10px;
+            background-color: #FFF;
+            list-style: none;
+            .file{
+                position: relative;
+                height: 44px;
+                line-height: 44px;
+                border-bottom: 1px solid #f2f6fd;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                background: #FFF;
+                padding: 0px;
+                margin-left: 50px;
+                list-style: decimal;
+                .folder{
+                    display: inline-block;
+                }
+                .file-type{
+                    padding: 5px;
+                }
+                .name{
+                    text-decoration: underline;
+                    color: blue;
+                    cursor: pointer;
+                }
+                &:hover{
+                    background-color: #cae7f7;
+                }
+            }
+        }
+    }
+}

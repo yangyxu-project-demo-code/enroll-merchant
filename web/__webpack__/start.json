@@ -1,0 +1,16 @@
+{
+    "name": "报名活动号 - 活动管理中心",
+    "links": {
+        "fonticon": "./css/fa-icon/css/font-awesome.css"
+    },
+    "externals": {
+        "zn": "node_modules/@zeanium/core/dist/zn.js",
+        "zn.web": "node_modules/@zeanium/web/dist/zn.web.js",
+        "react": "node_modules/react/umd/react.development.js",
+        "react-dom": "node_modules/react-dom/umd/react-dom.development.js",
+        "config": "./config.js"
+    },
+    "scripts": {
+        
+    }
+}

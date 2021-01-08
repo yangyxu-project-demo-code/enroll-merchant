@@ -1,0 +1,116 @@
+.enroll-merchant-main-dashboard{
+
+    .main-dashboard{
+        padding: 10px;
+        overflow: auto;
+        color: #636161;
+        font-family: monospace;
+
+        .item{
+            margin: 3px;
+            padding: 3px;
+            overflow: hidden;
+            border-radius: 3px;
+            background-color: #FFF;
+        }
+
+        .loading{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 128px;
+            background-color: #f7f6f6;
+            border-radius: 5px;
+            margin: 10px auto;
+            padding: 20px 0px;
+            font-size: 18px;
+            .fas{
+                padding: 5px;
+                font-size: 24px;
+            }
+        }
+
+        .title{
+            padding: 3px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .number-item{
+            position: relative;
+            cursor: pointer;
+            margin: 5px;
+            /*width: 30%;*/
+            padding: 20px !important;
+            transition: .3s ease-in;
+            &:hover{
+                box-shadow: 0 0 15px rgba(193, 193, 193, 0.8);
+                transform: scale(1.04);
+                color: #5d82c1;
+            }
+            .value{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .detail{
+                    .count{
+                        font-size: 26px;
+                        font-weight: bold;
+                        .unit{
+                            font-size: 12px;
+                            padding: 5px;
+                            color: #cecbcb;
+                        }
+                    }
+                    .tip{
+                        font-size: 12px;
+                    }
+                }
+                .icon{
+                    font-size: 38px;
+                    color: #F1F1F1;
+                }
+            }
+            .links{
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                margin: 5px;
+                .link{
+                    padding: 2px 8px;
+                    color: #7b88d0;
+                    border: 1px solid #7b88d0;
+                    border-radius: 3px;
+                    font-size: 10px;
+                    &:hover{
+                        background-color: #7b88d0;
+                        color: #FFF;
+                    }
+                }
+            }
+        }
+
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            .col-item{
+                flex-grow: 1;
+                background-color: #FFF;
+                border-radius: 3px;
+                margin: 6px;
+                padding: 3px;
+                flex: 1;
+            }
+        }
+    }
+    
+
+}
